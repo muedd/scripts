@@ -10,4 +10,3 @@ series
 pg= wb.DataReader('msft',data_source='yahoo',start='1995-1-10')
 pg
 #%%
-mydata=ql.get()
