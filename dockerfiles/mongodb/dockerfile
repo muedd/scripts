@@ -1,4 +1,5 @@
-FROM ubuntu
+
+FROM ubuntu:14.04
 LABEL Maintainer="Edwin Kamau"
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
 RUN apt-get install gnupg gnupg2 gnupg1

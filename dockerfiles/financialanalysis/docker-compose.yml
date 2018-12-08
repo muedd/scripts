@@ -1,0 +1,9 @@
+version: "3"
+services: 
+   datascience-notebook: 
+     image: edwinkamau/finance:latest
+     volumes: 
+        - ${PWD}:/home/jovyan
+     ports:
+        - 8888:8888
+     container_name: finance   
