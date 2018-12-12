@@ -1,0 +1,8 @@
+PG_MODE=primary
+PG_PRIMARY_USER=edwin
+PG_PRIMARY_PASSWORD=@edwinpg_data
+PG_DATABASE=kenyatowns
+PG_USER=edwin
+PG_PASSWORD=@edwinpg_data
+PG_ROOT_PASSWORD=@edwinpg_data
+PG_PRIMARY_PORT=5432
